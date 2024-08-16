@@ -10,13 +10,13 @@ class PrimeList {
         }
     }
 
-     public static void main(String args[]){
+    public static void main(String args[]) {
         if (args.length == 0) {
             System.out.println("Usage Main <lower_limit> <upper_limit>");
         } else {
             int lower = Integer.parseInt(args[0]);
             int upper = Integer.parseInt(args[1]);
-    
+
             PrimeList.printPrimeList(lower, upper);
         }
     }

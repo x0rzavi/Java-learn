@@ -15,12 +15,12 @@ class Palindrome {
 }
 
 class Main {
-  public static void main(String args[]) {
-    String input = args[0];
-    if (Palindrome.isPalindrome(input)) {
-        System.out.println("Is a palindrome");
-    } else {
-        System.out.println("Is not a palindrome");
+    public static void main(String args[]) {
+        String input = args[0];
+        if (Palindrome.isPalindrome(input)) {
+            System.out.println("Is a palindrome");
+        } else {
+            System.out.println("Is not a palindrome");
+        }
     }
-  }
 }

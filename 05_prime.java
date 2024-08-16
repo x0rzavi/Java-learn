@@ -1,8 +1,7 @@
 import java.util.*;
 
 class IsPrime {
-    public static boolean isPrime(int n)
-    {
+    public static boolean isPrime(int n) {
         if (n <= 1)
             return false;
 
@@ -10,10 +9,9 @@ class IsPrime {
             if (n % i == 0)
                 return false;
         return true;
-    }  
-    
-    public static void main(String args[])
-    {
+    }
+
+    public static void main(String args[]) {
         int number = Integer.parseInt(args[0]);
 
         if (IsPrime.isPrime(number))
@@ -21,5 +19,4 @@ class IsPrime {
         else
             System.out.println("Is not prime");
     }
-  
 }
