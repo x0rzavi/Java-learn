@@ -19,9 +19,11 @@ class Fibonacci {
 }
 
 class Main {
-    public static void main(String args[])
-    {
-        int number = Integer.parseInt(args[0]);
+    public static void main(String args[]) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
         Fibonacci.fibRange(number);
+        scanner.close();
     }
 }
