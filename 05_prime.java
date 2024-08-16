@@ -10,10 +10,8 @@ class IsPrime {
             if (n % i == 0)
                 return false;
         return true;
-    }    
-}
-
-class Main {
+    }  
+    
     public static void main(String args[])
     {
         int number = Integer.parseInt(args[0]);
@@ -23,4 +21,5 @@ class Main {
         else
             System.out.println("Is not prime");
     }
+  
 }
