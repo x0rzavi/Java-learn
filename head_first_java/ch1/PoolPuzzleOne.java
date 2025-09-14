@@ -16,9 +16,6 @@ class PoolPuzzleOne {
       if (x == 1) {
         System.out.println("annoys");
       }
-      if () {
-
-      }
       System.out.println();
       x = x + 1;
     }
